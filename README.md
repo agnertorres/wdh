@@ -7,7 +7,7 @@ Para rodar o servidor é necessário a instalação do Node na máquina.
 Após a instalação, executar o comando na pasta raiz do projeto:
 
 ```shell
-npm install
+sudo npm install
 ```
 
 #### Subindo o servidor
