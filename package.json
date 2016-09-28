@@ -7,11 +7,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://agnertorres@bitbucket.org/agnertorres/worked-hours.git"
+    "url": "git+https://github.com/agnertorres/wdh.git"
   },
   "author": "Agner Torres",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/agnertorres/worked-hours#readme",
+  "homepage": "https://github.com/agnertorres/wdh",
   "dependencies": {
     "http-server": "^0.9.0",
     "vanilla-masker": "^1.0.9",
