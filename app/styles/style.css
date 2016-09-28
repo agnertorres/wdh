@@ -1,0 +1,108 @@
+* {
+	padding: 0;
+	margin: 0;
+
+	box-sizing: border-box;
+
+	border: 0;
+	vertical-align: middle;
+
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	color: #505050;
+
+	outline: none;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+}
+
+.border{
+  border:1px dashed;
+}
+
+hr{
+	border-color: #e0e0e0;
+}
+
+header{
+  height: 50px;
+  background-color: #428bca;
+	box-shadow: 0px 2px 2px #b1a5a5;
+}
+
+header > div{
+  height: 100%;
+}
+
+.logo span{
+  font-size: 25px;
+	line-height: 50px;
+  color: #f7f7f7;
+  font-weight: bold;
+	text-shadow: 0px 0px 1px #cdcec8;
+}
+
+.tabs ul{
+  list-style: none;
+	text-align: center;
+}
+
+.tab-item{
+  display: inline-block;
+	color: #f7f7f7;
+	line-height: 50px;
+	font-weight: bold;
+	transition: background-color 0.3s ease-out, font-size 0.1s ease-out;
+}
+
+.tab-item:hover{
+	cursor: pointer;
+	transition: background-color 0.3s ease-out;
+	background-color: #286090;
+}
+
+.tab-item:active{
+	font-size: 14px;
+	transition: font-size 0.1s ease-out;
+}
+
+.active-tab{
+	background-color: #286090;
+}
+
+.tab-content{
+	height: 100%;
+}
+
+table, td, th{
+	text-align: center;
+}
+
+.search-btn{
+	margin-top: 27px;
+}
+
+.content, .header{
+	position: relative;
+	z-index: 999;
+}
+
+.row:after{
+	clear: none;
+}
+
+.login{
+	position: absolute;
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	border-radius: 3px;
+	height: 300px;
+	box-shadow: 0px 0px 3px #ccc;
+	background-color: rgba(124,141,156,1);
+}
